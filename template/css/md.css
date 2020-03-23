@@ -1,0 +1,22 @@
+#md h1 {
+    border-bottom: 1px solid #fff;
+    margin: 48px 0;
+}
+
+#md h2,
+#md h3,
+#md h4,
+#md h5 {
+    margin: 16px 0;
+}
+
+#md p {
+    margin: 16px 0;
+}
+
+pre {
+    display: block;
+    overflow-x: auto;
+    padding: 8px;
+    background: #F0F0F0;
+}
