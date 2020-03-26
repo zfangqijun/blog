@@ -20,6 +20,23 @@ const copyCss = async () => {
 
 }
 
+const imagesReadPath = path.resolve(__dirname, '../articles/images');
+const imagesWritePath = path.resolve(__dirname, '../dist/images');
+
+const copyImages = async () => {
+    const paths = await readdir(imagesReadPath);
+    await recursionMkdir(imagesWritePath);
+
+    for (let _path of paths) {
+        const readStream = fs.createReadStream(_path);
+        const writePath = path.resolve(imagesWritePath, path.parse(_path).base);
+        const writeStream = fs.createWriteStream(writePath);
+        readStream.pipe(writeStream);
+    }
+
+}
+
 module.exports = {
-    copyCss
+    copyCss,
+    copyImages
 }
