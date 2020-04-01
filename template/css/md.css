@@ -1,12 +1,9 @@
 #md h1 {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #F0F0F0;
     margin: 48px 0;
 }
 
-#md h2,
-#md h3,
-#md h4,
-#md h5 {
+#md h2, #md h3, #md h4, #md h5 {
     margin: 16px 0;
 }
 
@@ -19,4 +16,17 @@ pre {
     overflow-x: auto;
     padding: 8px;
     background: #F0F0F0;
+}
+
+#md thead {
+    background: #F0F0F0;
+}
+
+#md tbody {
+    background: #F0F0F0;
+}
+
+#md th, #md td {
+    padding: 2px 8px;
+    min-width: 48px;
 }
