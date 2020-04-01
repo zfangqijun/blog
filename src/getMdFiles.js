@@ -6,7 +6,8 @@ const { sortByDate } = require('./utils');
 const articlesPath = path.resolve(__dirname, '../articles');
 
 const ignoreFunc = (file, stats) => {
-    return stats.isDirectory();
+    const regexp = new RegExp(/\.md$/);
+    return stats.isDirectory() || !regexp.test(file);
 }
 
 const getMdFilePathList = () => {
@@ -37,8 +38,6 @@ const getMdFiles = async () => {
     const files = await readMdFiles(paths);
     return files;
 }
-
-getMdFiles();
 
 module.exports = {
     getMdFiles
