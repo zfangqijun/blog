@@ -1,6 +1,6 @@
 +++
 {
-    "date": "2020-03-26",
+    "date": "2020-01-26",
     "tag": "webpackprj",
     "title": "使用Webpack构建前端工程"
 }
@@ -24,7 +24,9 @@ yarn add -D webpack webpack-cli
 ## 安装webpack-dev-server
 
 在webpack.config.js中的devServer字段专门用来存放该模块的配置
+
 该模块的主要工作是接收浏览器的请求，然后将资源返回
+
 服务启动时，会先让webpack进行打包并将资源准备好，且每次修改代码都会重新打包更新，方便调试
 
 ```bash
@@ -54,6 +56,7 @@ yarn add -D @babel/preset-react
 ## 安装需要用到的plugin
 
 terser-webpack-plugin用于生产环境压缩代码
+
 copy-webpack-plugin用于拷贝部分静态文件
 
 ```bash
@@ -222,6 +225,7 @@ package.json
 ## 开发环境
 
 执行dev即可使用webpack-dev-server启动本地开发环境
+
 "dev": "webpack-dev-server"
 
 ```bash
@@ -233,6 +237,7 @@ yarn dev
 ## 生产环境
 
 执行build即可打包到dist
+
 "build": "npm run clean && cross-env NODE_ENV=production webpack"
 
 ```bash
