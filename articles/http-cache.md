@@ -2,10 +2,10 @@
 {
     "date": "2020-01-08",
     "tag": "httpcache",
-    "title": "HTTP缓存笔记"
+    "title": "HTTP 缓存笔记"
 }
 +++
-# HTTP缓存笔记
+# HTTP 缓存笔记
 
 ## 相关字段简述
 

@@ -2,10 +2,10 @@
 {
     "date": "2020-03-02",
     "tag": "http2",
-    "title": "HTTP2分帧层"
+    "title": "HTTP2 分帧层"
 }
 +++
-# HTTP2分帧层
+# HTTP2 分帧层
 
 HTTP2大致可以分为两部分：
 
