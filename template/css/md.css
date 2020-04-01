@@ -3,12 +3,13 @@
     border-bottom: 3px solid #F0F0F0;
 }
 
-#md h2, #md h3, #md h4, #md h5 {
-    margin: 16px 0;
+#md h2 {
+    margin: 24px 0;
+    border-bottom: 1px solid #F0F0F0;
 }
 
-#md h2 {
-    border-bottom: 1px solid #F0F0F0;
+#md h3, #md h4, #md h5 {
+    margin: 16px 0;
 }
 
 #md p {
