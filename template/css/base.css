@@ -8,6 +8,12 @@ body {
     background: #ddb3a7;
 }
 
+img {
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+}
+
 ul li {
     list-style: none;
     padding: 0px;
@@ -55,4 +61,14 @@ header #title {
 #article-item #date {
     font-size: 16px;
     color: #111;
+}
+
+footer {
+    height: 56px;
+    width: 100%;
+    margin-top: 16px;
+    border-top: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
