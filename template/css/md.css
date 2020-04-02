@@ -35,3 +35,18 @@ pre {
     padding: 2px 8px;
     min-width: 48px;
 }
+
+#md ul {
+    margin: 16px 0;
+}
+
+#md li {
+    line-height: 24px;
+}
+
+#md li:before {
+    content: "●";
+    display: inline-block;
+    margin: 0 8px;
+    font-size: 12px;
+}
