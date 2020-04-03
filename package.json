@@ -1,7 +1,8 @@
 {
   "scripts": {
     "build": "npm run clean && node ./src/index.js",
-    "clean": "rimraf ./dist && mkdirp dist"
+    "clean": "rimraf ./dist && mkdirp dist",
+    "deploy": "npm run build && sh deploy.sh"
   },
   "dependencies": {
     "ejs": "^3.0.1",
