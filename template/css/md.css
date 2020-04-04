@@ -1,25 +1,25 @@
 .md h1 {
-    margin: 48px 0;
+    margin: 3rem 0;
     border-bottom: 3px solid #000;
 }
 
 .md h2 {
-    margin: 24px 0;
+    margin: 1.5rem 0;
     border-bottom: 1px solid #000;
 }
 
 .md h3, .md h4, .md h5 {
-    margin: 16px 0;
+    margin: 1rem 0;
 }
 
 .md p {
-    margin: 16px 0;
+    margin: 1rem 0;
 }
 
 pre {
     display: block;
     overflow-x: auto;
-    padding: 8px;
+    padding: .5rem;
     background: #000;
     border: 1px solid #ddd;
 }
@@ -47,21 +47,21 @@ code {
 }
 
 .md th, .md td {
-    padding: 2px 8px;
-    min-width: 48px;
+    padding: .125rem .5rem;
+    min-width: 3rem;
 }
 
 .md ul {
-    margin: 16px 0;
+    margin: 1rem 0;
 }
 
 .md li {
-    line-height: 24px;
+    line-height: 1.5;
 }
 
 .md li:before {
     content: "●";
     display: inline-block;
-    margin: 0 8px;
+    margin: 0 .5rem;
     font-size: 12px;
 }
