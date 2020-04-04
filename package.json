@@ -1,4 +1,5 @@
 {
+  "license": "UNLICENSED",
   "scripts": {
     "build": "npm run clean && node ./src/index.js",
     "clean": "rimraf ./dist && mkdirp dist",
