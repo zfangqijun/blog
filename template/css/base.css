@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #ddb3a7;
+    background: #fff;
 }
 
 img {
@@ -25,7 +25,7 @@ a:link, a:active, a:visited {
 }
 
 a:hover {
-    color: #ddd;
+    color: #aaa;
 }
 
 header {
@@ -33,7 +33,7 @@ header {
     height: 56px;
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #000;
     padding: 0 16px;
 }
 
@@ -49,18 +49,18 @@ header #title {
 }
 
 #article-list {
-    border: 1px solid #fff;
+    border: 1px solid #000;
 }
 
 #article-item {
     padding: 16px;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #000;
     font-size: 24px;
 }
 
 #article-item #date {
     font-size: 16px;
-    color: #111;
+    color: #aaa;
 }
 
 footer {
@@ -68,7 +68,7 @@ footer {
     width: 100%;
     margin-top: 48px;
     padding-left: 16px;
-    border-top: 1px solid #fff;
+    border-top: 1px solid #000;
     display: flex;
     align-items: center;
 }
