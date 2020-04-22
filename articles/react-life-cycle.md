@@ -68,6 +68,10 @@
 
 如果存在 `componentWillUnmount`，则执行并重置所有相关参数、更新队列以及更新状态，如果此时在 `componentWillUnmount` 中调用 `setState`，是不会触发 `re-render` 的，这是因为所有更新队列和更新状态都被重置为 `null`，并清除了公共类，完成了组件卸载操作
 
+### 16.3 生命周期改动
+
+![阶段一：MOUNTING](/images/react-life-cycle_6.png)
+
 ## 总流程图
 
 ![阶段一：MOUNTING](/images/react-life-cycle_5.jpg)
