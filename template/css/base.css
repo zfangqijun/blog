@@ -42,10 +42,18 @@ header {
     align-items: center;
     border-bottom: 1px solid #000;
     padding: 0 1rem;
+    background-image: linear-gradient(to right, #24292e, #000);
+    color: #fff;
 }
 
 header #title {
     font-size: 1.75rem;
+    flex: 1;
+}
+
+header a:link, header a:active, header a:visited, header a:hover {
+    color: #fff;
+    text-decoration: none;
 }
 
 #main {
