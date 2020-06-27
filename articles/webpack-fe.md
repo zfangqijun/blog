@@ -1,6 +1,6 @@
 +++
 {
-    "date": "2020-01-26",
+    "date": "2020-01-05",
     "tag": "webpackprj",
     "title": "使用Webpack构建前端工程"
 }
